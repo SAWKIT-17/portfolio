@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
+const geistSans = localFont({ //TODO: Mettre la font Luciole et Firacode
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
@@ -14,7 +14,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Nicolas Wieckiewicz",
-  description: "Je suis là où tu t'y attends pas", //TODO: Mettre une description correct
+  description: "Je suis là où tu t'y attends pas", //TODO: Mettre une description correct et un favicon
 };
 
 export default function RootLayout({ children }) {
