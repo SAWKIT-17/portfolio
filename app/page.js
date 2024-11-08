@@ -5,20 +5,20 @@ export default function Home() {
         <a className="flex items-center">
           <h1>Nicolas Wieckiewicz</h1>
         </a>
-        <nav>
-          <div>
-            <ul className="flex flex-row space-x-3">
-              <li>
+        <nav className="">
+          <div className="flex flex-col justify-center mr-3">
+            <ul className="flex flex-row space-x-3 flex flex-col justify-center mr-3">
+              <li className="ml-2 flex flex-row">
                 <span>/</span>
-                <span>Info</span>
+                <span className="ml-1">Info</span>
               </li>
-              <li>
+              <li className="ml-2 flex flex-row">
                 <span>/</span>
-                <span>Projects</span>
+                <span className="ml-1">Projects</span>
               </li>
-              <li>
+              <li className="ml-2 flex flex-row">
                 <span>/</span>
-                <span>Contact</span>
+                <span className="ml-1">Contact</span>
               </li>
             </ul>
           </div>
