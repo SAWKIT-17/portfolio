@@ -1,3 +1,5 @@
+@import './styles/fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,7 +19,6 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: luciole;
 }
 
 li {

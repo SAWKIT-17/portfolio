@@ -2,7 +2,7 @@ import Topbar from "./components/topbar";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-[100dvh]">
+    <div className="flex flex-col h-[100dvh] font-luciole">
       <Topbar />
       <main className="flex flex-col justify-center h-full">
         <div className="flex justify-center pt-4">
