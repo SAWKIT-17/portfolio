@@ -3,10 +3,10 @@ import Homepage from "./components/home";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-[100dvh] font-luciole">
+    <div className="flex flex-col h-[100dvh] font-luciole overflow-clip">
       <Topbar />
-      <main className="flex flex-col justify-center h-full bg-white">
-        <div className="flex justify-center pt-4 m-4 h-full border-4 border-slate-800">
+      <main className="flex flex-col justify-center h-screen overflow-hidden">
+        <div className="flex justify-center py-4 px-8 mx-4 mb-4 max-h-full bg-white text-black border-4 border-blue-600 border-opacity-100 overflow-y-scroll">
           <Homepage />
         </div>
       </main>
