@@ -2,7 +2,7 @@ import React from "react";
 
 function Topbar() {
     return (
-        <div className="topbar flex flex-row w-full py-3 px-4 justify-between">
+        <div className="topbar flex flex-col md:flex-row w-full py-3 px-4 items-center md:items-start md:justify-between">
             <a className="flex items-center">
                 <h1><span>Nicolas</span> <span className="uppercase">Wieckiewicz</span></h1>
             </a>
