@@ -5,7 +5,7 @@ function Homepage() {
         <div>
 
             <div className="flex flex-row mb-2 md:mb-4">
-                <img className="w-24 md:w-32 lg:w-36 h-min rounded-full" src="/nicolas_w.jpg"></img>
+                <img className="w-24 md:w-32 lg:w-36 min-h-24 rounded-full" src="/nicolas_w.jpg"></img>
                 <div className="flex flex-col justify-end ml-2 lg:ml-8">
                     <h1 className="">Développeur Full-Stack</h1>
                     <h2 className=""><span>Nicolas</span> <span>Wieckiewicz</span></h2>
