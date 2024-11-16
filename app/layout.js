@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body
-        className={`${luciole.variable} ${firacodeMedium.variable} antialiased`}
+        className={`${luciole.variable} ${lucioleBold.variable} ${firacode.variable} ${firacodeBold.variable} ${firacodeMedium.variable} antialiased`}
       >
         {children}
       </body>

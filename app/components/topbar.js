@@ -3,8 +3,8 @@ import React from "react";
 function Topbar() {
     return (
         <div className="topbar flex flex-col md:flex-row w-full py-3 px-4 items-center md:items-start md:justify-between">
-            <a className="flex items-center">
-                <h1><span>Nicolas</span> <span className="uppercase">Wieckiewicz</span></h1>
+            <a href="/" className="flex items-center">
+                <p><span>Nicolas</span> <span>Wieckiewicz</span></p>
             </a>
             <nav className="font-firacode-medium">
                 <div>

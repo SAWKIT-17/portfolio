@@ -26,3 +26,10 @@ body {
 li {
   margin: 0;
 }
+
+h1 {
+  font-size: 1.25rem;
+  font-family: var(--font-luciole-bold);
+  line-height: 1.75rem;
+  text-decoration: underline;
+}
