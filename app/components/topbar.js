@@ -4,7 +4,7 @@ function Topbar() {
     return (
         <div className="topbar flex flex-col md:flex-row w-full py-3 px-4 items-center md:items-start md:justify-between">
             <a href="/" className="flex items-center">
-                <p><span>Nicolas</span> <span>Wieckiewicz</span></p>
+                <span>Nicolas Wieckiewicz</span>
             </a>
             <nav className="font-firacode-medium">
                 <div>
