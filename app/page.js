@@ -8,7 +8,7 @@ export default function Home() {
       <Topbar />
       <main className="flex flex-col justify-center h-screen overflow-hidden">
         <div className="flex justify-center py-4 px-2 md:px-4 lg:px-10 xl:px-20 md:mx-4 lg:mx-10 xl:mx-20 md:mb-2 lg:mb-6 h-full max-h-full overflow-y-scroll overflow-x-hidden">
-          <div className="absolute inset-40 bg-gradient-to-tr from-black via-blue-900 to-black blur-3xl opacity-40"></div>
+          <div className="pointer-events-none absolute bottom-0 mx-auto h-full w-3/4 max-w-screen-2xl -rotate-2 touch-none rounded-full bg-gradient-to-tr opacity-25 blur-[8rem] lg:h-4/6 lg:w-11/12 from-violet-700 to-blue-600"></div>
           <Homepage />
         </div>
       </main>
