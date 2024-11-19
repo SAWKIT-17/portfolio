@@ -10,18 +10,18 @@ function Topbar() {
                 <div>
                     <ul className="flex flex-row space-x-3 justify-center">
                         <li>
-                            <span>/</span>
+                            <span className="pointer-events-none touch-none select-none">/</span>
                             <span className="ml-3">Info</span>
                         </li>
                         <li>
-                            <span>/</span>
+                            <span className="pointer-events-none touch-none select-none">/</span>
                             <span className="ml-3">Projects</span>
                         </li>
                         <li>
-                            <span>/</span>
+                            <span className="pointer-events-none touch-none select-none">/</span>
                             <span className="ml-3">Contact</span>
                         </li>
-                        <span>/</span>
+                        <span className="pointer-events-none touch-none select-none">/</span>
                     </ul>
                 </div>
             </nav>
