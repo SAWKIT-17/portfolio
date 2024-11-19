@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'accent': "var(--accent-color)",
+        'accent': "var(--accent)",
+        'highlight': "var(--highlight)",
       },
     },
   },

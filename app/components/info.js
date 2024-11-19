@@ -1,6 +1,6 @@
 import React from "react";
 
-function Homepage() {
+function Info() {
     return (
         <div>
             <div className="flex flex-row mb-4">
@@ -13,10 +13,10 @@ function Homepage() {
             </div>
             <span>
                 {/* TODO: Color Highlight en jaune pâle terminal */}
-                Je suis un développeur full-stack passionné, avec une solide formation en IT & Réseaux.
+                Je suis un <span className="text-highlight">développeur full-stack</span> passionné, avec une solide formation en <span className="text-highlight">IT & Réseaux</span>.
                 <br />
-                Après avoir travaillé pour des organisations prestigieuses comme la Commission européenne via Bryton Global et occupé un rôle de développeur et gestionnaire de projet chez Tafsquare, j'ai décidé de me lancer en tant que freelance. 
-                Polyvalent et autodidacte, j'explore des domaines variés tels que la programmation, l'IT, et les réseaux, avec une ambition de me spécialiser dans la cybersécurité et l'IA.
+                Après avoir travaillé pour des organisations prestigieuses comme la Commission européenne via Bryton Global en tant que <span className="text-highlight">technicien IT</span> et occupé un rôle de <span className="text-highlight">développeur</span> et <span className="text-highlight">gestion de projet</span> chez Tafsquare, j'ai décidé de me lancer en tant que freelance. 
+                <span className="text-highlight">Polyvalent et autodidacte</span>, j'explore des domaines variés tels que la programmation, l'IT, et les réseaux, avec une ambition de me spécialiser dans la cybersécurité et l'IA.
                 <br />
                 Je suis à votre service pour concrétiser vos projets web et IT avec professionnalisme et créativité.
             </span>
@@ -29,4 +29,4 @@ function Homepage() {
     );
 }
 
-export default Homepage;
+export default Info;
