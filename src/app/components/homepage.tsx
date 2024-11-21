@@ -1,5 +1,5 @@
 import React from "react";
-// TODO : next/image pour remplacer les balises img
+import Image from "next/image";
 
 function Homepage() {
     return (
@@ -11,11 +11,11 @@ function Homepage() {
             <div className="hidden md:flex flex-row ml-auto">
             <div className="pointer-events-none fixed bottom-0 mx-auto h-full w-3/4 max-w-screen-2xl -rotate-2 touch-none rounded-l-full bg-gradient-to-tr opacity-25 blur-[2rem] from-blue-600 to-violet-700"></div>
                 <div className="flex flex-col justify-center">
-                    <img className="w-100 -scale-x-100" src="/nicolas_w.webp" alt="Nicolas Wieckiewicz" /> {/* TODO: Remplacer l'image du type par moi */}
+                    <Image src="/nicolas_w.webp" width={580} height={580} alt="Nicolas Wieckiewicz" className="w-100 -scale-x-100" /> {/* TODO: Remplacer l'image du type par moi */}
                 </div>
                 <div className="flex flex-row justify-center">
-                    <img className="w-60" src="/vercel.svg" alt="Vercel" />
-                    <img className="w-60 invert" src="/next.svg" alt="NextJS" /> {/* TODO: Mettre logo de tout les techno que je connais derrière moi */}
+                    <Image src="/vercel.svg" width={240} height={240} alt="Vercel" />
+                    <Image src="/next.svg" width={240} height={240} alt="NextJS" className="invert" /> {/* TODO: Mettre logo de tout les techno que je connais derrière moi */}
                 </div>
             </div>
         </div>

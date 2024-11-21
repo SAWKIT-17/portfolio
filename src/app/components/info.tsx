@@ -1,11 +1,11 @@
 import React from "react";
-// TODO: Import next/image et remplacer balise img
+import Image from "next/image";
 
 function Info() {
     return (
         <div>
             <div className="flex flex-row mb-4">
-                <img className="w-24 md:w-32 lg:w-36 min-h-24 rounded-full" src="/nicolas_w.jpg" alt="Nicolas Wieckiewicz"></img>
+                <Image src="/nicolas_w.webp" width={580} height={580} alt="Nicolas Wieckiewicz" className="w-24 md:w-32 lg:w-36 min-h-24 rounded-full" />
                 <div className="flex flex-col justify-end ml-2 lg:ml-8 text-xl">
                     <p className="font-luciole-bold">Développeur Full-Stack</p>
                     <p className=""><span>Nicolas</span> <span className="uppercase">Wieckiewicz</span></p>
