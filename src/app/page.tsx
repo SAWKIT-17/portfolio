@@ -1,6 +1,6 @@
 import Topbar from "./components/topbar";
 import Homepage from "./components/homepage";
-import Info from "./components/info";
+//import Info from "./components/info";
 
 export default function Home() {
   return (
@@ -17,3 +17,4 @@ export default function Home() {
     </div>
   );
 }
+

@@ -1,11 +1,12 @@
+import Link from "next/link";
 import React from "react";
 
-function Topbar() {
+export default function Topbar() {
     return (
         <div className="topbar flex flex-col md:flex-row w-full py-3 px-4 items-center md:items-start md:justify-between">
-            <a href="/" className="flex items-center">
+            <Link href="/" className="flex items-center">
                 <span>Nicolas Wieckiewicz</span>
-            </a>
+            </Link>
             <nav className="font-firacode-medium">
                 <div>
                     <ul className="flex flex-row space-x-3 justify-center">
@@ -28,5 +29,3 @@ function Topbar() {
         </div>
     );
 }
-
-export default Topbar;

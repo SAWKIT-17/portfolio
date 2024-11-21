@@ -1,10 +1,11 @@
 import React from "react";
+// TODO : next/image pour remplacer les balises img
 
 function Homepage() {
     return (
         <div className="w-full h-full flex flex-row">
             <div className="w-auto h-full flex flex-col justify-center text-center lg:text-start">
-                <span className="mb-4 text-4xl bg-gradient-to-l bg-clip-text text-transparent from-violet-700 to-blue-300">Besoin d'un développeur ?</span>
+                <span className="mb-4 text-4xl bg-gradient-to-l bg-clip-text text-transparent from-violet-700 to-blue-300">Besoin d&apos;un développeur ?</span>
                 <span className="text-6xl">Nicolas Wieckiewicz</span>
             </div>
             <div className="hidden md:flex flex-row ml-auto">
